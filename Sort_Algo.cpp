@@ -7,7 +7,6 @@
 #include <ctime>
 //#include "Sort.h"
 
-
 // Sorting classes that allow for insertion, quick and merge sort
 namespace DataStructures{
     
@@ -135,6 +134,7 @@ namespace DataStructures{
             
             template <typename T>
             void Sort(std::vector<T> * x){
+                compCount = 0;
                 RecursiveSort(x, 0, x->size()-1);
             }
             
