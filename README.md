@@ -27,3 +27,9 @@ After experimenting with the various lists using our program, we determined idea
 \*Note these values are 3 number averages, and results will vary from list to list of the same size.
 
 Based off of these results, using Quick sort rather than Merge sort for small lists is ideal. When list sizes reach values between 30 and 40, though, switching to Merge sort would yield the quickest sorting results. However, one must take into consideration whether storage is a limiting factor, since Merge sort is a storage-heavy method. While Merge sort uses fewer comparisons after reaching t-values of 30 or 40, the differences in comparison counts are small at first. Even when reaching t-values of 100, the number of comparisons are of the same magnitude and may not make a major difference in computing times. Only when reaching higher t-values such as 20,000 will a difference in computing times between the two methods become noticeable.
+
+### Execution Greater Than Threshold
+![Threshold Over](/SampleOutput1.JPG)
+
+### Execution Less Than Threshold
+![Threshold Under](/SampleOutput2.JPG)
